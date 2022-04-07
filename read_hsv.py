@@ -49,6 +49,7 @@ def recive_message(device, userdata, message):
         device.publish('ayazkhasyanov/align_camera', angle_degrees_7)
 
 
+
 def read_values_from_file(filename):
     file = open(filename, 'r')
     values = file.read()
